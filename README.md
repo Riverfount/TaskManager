@@ -33,8 +33,8 @@ API REST simples para gerenciamento de tarefas (CRUD), construída com Spring Bo
 1. Clone o repositório:
 
    ```bash
-   git clone <url-do-repositorio>
-   cd taskmanager
+   git clone https://github.com/Riverfount/TaskManager.git
+   cd TaskManager
    ```
 
 2. Execute a aplicação com o Maven Wrapper:
