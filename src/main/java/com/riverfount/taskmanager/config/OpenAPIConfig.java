@@ -6,9 +6,9 @@ import org.springframework.context.annotation.Configuration;
 import io.swagger.v3.oas.models.OpenAPI;
 
 @Configuration
-public class OpenAIConfig {
+public class OpenAPIConfig {
     @Bean
-    public OpenAPI openAIConfig() {
+    public OpenAPI configOpenAPI() {
         OpenAPI openAPI = new OpenAPI();
         openAPI.info(
                 new Info()
